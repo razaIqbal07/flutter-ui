@@ -38,6 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() {
+    print('The button has been clicked');
     setState(() {
       _counter++;
     });
